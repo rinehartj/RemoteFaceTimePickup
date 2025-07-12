@@ -7,7 +7,8 @@ const puppeteer = require('puppeteer');
     defaultViewport: null, // Disable the default viewport to use the full screen
     args: [
       '--start-maximized', // Start the browser in maximized mode
-      '--use-fake-ui-for-media-stream'
+      '--use-fake-ui-for-media-stream',
+      '--no-sandbox'
     ],
   });
 
