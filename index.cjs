@@ -21,7 +21,7 @@ const puppeteer = require('puppeteer');
   // Enter a string into the input field
   const inputSelector = '#name-entry';
   await page.waitForSelector(inputSelector);
-  await page.type(inputSelector, 'Jason 2'); // Replace with your desired string
+  await page.type(inputSelector, 'Grandma'); // Replace with your desired name
 
   // Click the "Continue" button
   const continueButtonSelector = 'ui-button.pill.primary.extra-large.cta.continue-button.extra-bottom-spacing';
